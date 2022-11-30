@@ -83,7 +83,7 @@
 }
 .drum-pad {
     background: var(--secondary);
-	width: 10%;
+	width: 33%;
 	height: 100%;
 	border: solid var(--dark) 3px;
 	border-bottom: 0;
@@ -95,6 +95,8 @@
 	color: var(--dark);
 	text-align: center;
 	cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
 }
 .drum-pad-hover {
 	background: var(--primary);
